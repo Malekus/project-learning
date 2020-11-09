@@ -14,7 +14,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class BlogController extends AbstractController
 {
     /**
-     * @Route("/{page}", name="blog_list", defaults={"page" : 1}, requirements={"page"="\d+"})
+     * @Route("/posts/{page}", name="blog_list", defaults={"page" : 1}, requirements={"page"="\d+"})
      */
     public function list($page, Request $request)
     {

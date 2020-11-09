@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="LearningSym">
-  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.16">
+  <database-model serializer="dbm" dbms="SQLITE" family-id="SQLITE" format-version="4.17">
     <root id="1">
       <ServerVersion>3.31.1</ServerVersion>
     </root>
@@ -71,7 +71,6 @@
     <index id="20" parent="7" name="sqlite_autoindex_doctrine_migration_versions_1">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>version</ColNames>
-      <ColumnCollations></ColumnCollations>
       <Unique>1</Unique>
     </index>
     <key id="21" parent="7">

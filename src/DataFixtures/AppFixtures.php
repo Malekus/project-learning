@@ -10,10 +10,7 @@ class AppFixtures extends Fixture
 {
     public function load(ObjectManager $manager)
     {
-        // $product = new Product();
-        // $manager->persist($product);
-
-        for ($i = 0; $i <= 20; $i++){
+        for ($i = 0; $i <= 20; $i++) {
             $post = new BlogPost();
             $post->setTitle("Titre " . $i);
             $post->setPublished(new \DateTime());
