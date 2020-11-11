@@ -86,12 +86,12 @@ class BlogPost
         return $this;
     }
 
-    public function getAuthor(): ?string
+    public function getAuthor(): User
     {
         return $this->author;
     }
 
-    public function setAuthor(string $author): self
+    public function setAuthor(User $author): self
     {
         $this->author = $author;
 
@@ -109,6 +109,7 @@ class BlogPost
 
         return $this;
     }
+
 
 
 }
